@@ -1,0 +1,7 @@
+{% extends "layout.html" if not request.headers.get('HX-Request') else "fragment.html" %}
+{% block content %}
+<title id="page-title" hx-swap-oob="true">{{ title }}</title>
+
+<h1>Contact</h1>
+<p>012927402</p>
+{% endblock %}

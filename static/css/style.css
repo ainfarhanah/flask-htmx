@@ -1,0 +1,6 @@
+a[hx-get],
+a[hx-post],
+[hx-get],
+[hx-post] {
+    cursor: pointer !important;
+}
